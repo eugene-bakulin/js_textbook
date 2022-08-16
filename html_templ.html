@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Типы данных
+    </h1>
+    <p>В JavaScript есть 8 основных типов данных.</p>
+    <p>Семь из них называют «примитивными» типами данных:</p>
+    <ul>
+        <li>
+            <p><strong>number</strong> для любых чисел: целочисленных или чисел с плавающей точкой; целочисленные значения ограничены диапазоном ±(2<sup>53</sup>-1).</p>
+        </li>
+        <li>
+            <p><strong>bigint</strong> для целых чисел произвольной длины.</p>
+        </li>
+        <li>
+            <p><strong>string</strong> для строк. Строка может содержать ноль или больше символов, нет отдельного символьного типа.</p>
+        </li>
+        <li>
+            <p><strong>boolean</strong> для <strong>true/false</strong></p>
+        </li>
+        <li>
+            <p><strong>null</strong> для неизвестных значений – отдельный тип, имеющий одно значение <strong>null</strong>.</p>
+        </li> 
+        <li>
+            <p><strong>undefined</strong> для неприсвоенных значений – отдельный тип, имеющий одно значение <strong>undefined</strong>.</p>
+        </li>
+        <li>
+            <p><strong>symbol</strong> для уникальных идентификаторов.</p>
+        </li>
+    </ul>
+    <p>И один не является «примитивным» и стоит особняком:</p>
+    <ul>
+        <li><p><strong>object</strong> для более сложных структур данных.</p></li>
+    </ul>
+    <p>Оператор <strong>typeof</strong> позволяет нам увидеть, какой тип данных сохранён в переменной.</p>
+    <ul>
+        <li>
+            <p>Имеет две формы: <strong>typeof x</strong> или <strong>typeof(x)</strong>.</p>
+        </li>
+        <li>
+            <p>Возвращает строку с именем типа. Например, <strong>"string"</strong>.</p>
+        </li>
+        <li>
+            <p>Для <strong>null</strong> возвращается <strong>"object"</strong> – это ошибка в языке, на самом деле это не объект.</p>
+        </li>
+    </ul>
+</body>
+</html>
